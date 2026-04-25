@@ -27,4 +27,4 @@ This project was made on a Snapdragon X Plus laptop running Windows 11. It's def
 
 ## Picture
 
-[picture](./cardputer-text-picture.jpg)
+<img src="./assets/cardputer-text-picture.jpg" width = "50%" />
