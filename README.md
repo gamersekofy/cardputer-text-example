@@ -6,7 +6,7 @@ This is a simple program that uses `embedded-graphics`, `display-interface-spi`,
 
 ### NixOS
 
-```
+```bash
 git clone https://github.com/gamersekofy/cardputer-text-example.git
 cd cardputer-text-example
 nix develop # or direnv allow
@@ -15,7 +15,7 @@ nix develop # or direnv allow
 ### Others
 **⚠️ IMPORTANT**: You need to have the esp Rust toolchain installed first. See next section for details.
 
-```
+```bash
 git clone https://github.com/gamersekofy/cardputer-text-example.git
 cd cardputer-text-example
 cargo build
