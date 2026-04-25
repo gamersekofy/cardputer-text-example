@@ -4,6 +4,15 @@ This is a simple program that uses `embedded-graphics`, `display-interface-spi`,
 
 ## Building
 
+### NixOS
+
+```
+git clone https://github.com/gamersekofy/cardputer-text-example.git
+cd cardputer-text-example
+nix develop # or direnv allow
+```
+
+### Others
 **⚠️ IMPORTANT**: You need to have the esp Rust toolchain installed first. See next section for details.
 
 ```
@@ -23,7 +32,9 @@ If you want to skip directly to installation instructions, go to the [toolchain 
 
 ## Environment Information
 
-This project was made on a Snapdragon X Plus laptop running Windows 11. It's definitely possible to do Rust on ESP development on ARM64.
+This project was initially made on a Snapdragon X Plus laptop running Windows 11. It's definitely possible to do Rust on ESP development on ARM64.
+
+Later, necessary files were added to set up a no_std Rust for Xtensa ESP32 environment on NixOS machines.
 
 ## Picture
 
